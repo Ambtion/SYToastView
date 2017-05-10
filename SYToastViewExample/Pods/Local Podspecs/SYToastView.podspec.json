@@ -11,13 +11,14 @@
     "ios": "8.0"
   },
   "source": {
-    "git": "https://github.com/Ambtion/SYToastView.git"
+    "git": "https://github.com/Ambtion/SYToastView.git",
+    "tag": "v0.0.1"
   },
   "public_header_files": "SYToastView/*.h",
   "resources": "SYToastView/Resource/*.png",
   "source_files": [
     "SYToastView",
-    "SYToastView/**/*.{h,m}"
+    "SYToastView/SYToastView/*.{h,m}"
   ],
   "dependencies": {
     "SDWebImage": [
