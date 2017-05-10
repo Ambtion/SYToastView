@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author       = { "ambtion" => "kequ1988@gmail.com"}
   s.platform     = :ios, "8.0"
-  s.source       = { :git => "https://github.com/Ambtion/SYToastView.git" , :tag => 'v0.0.1'}
+  s.source       = { :git => "https://github.com/Ambtion/SYToastView.git"}
   s.public_header_files = 'SYToastView/*.h'
   s.resources ='SYToastView/Resource/*.png'
   s.source_files  = "SYToastView", "SYToastView/**/*.{h,m}"
